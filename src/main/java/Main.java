@@ -7,5 +7,7 @@ public class Main {
 
         MenuStart start = new MenuStart();
         start.glavMenu();
+        String d = "12";
+
     }
 }

@@ -112,8 +112,8 @@ public class MenuStart implements Menu {
     @Override
     public void exitGlavMenu() {
         System.out.println("0 - Для выхода в глав меню");
-        int exit = Integer.valueOf(scanner.nextLine());
-        if (exit == 0) {
+        String exit  = scanner.nextLine();
+        if (exit.equals("0")) {
             glavMenu();
         } else {
             exitGlavMenu();
